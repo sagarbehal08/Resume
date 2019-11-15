@@ -5,10 +5,12 @@ body{
 .head
 {
   background-color: #2b546a;
-  width:942px;
+  width:932px;
   float:right;
   color:white;
-
+  border-radius: 30px;
+  margin-left:10px;
+  box-shadow: 2px 2px 2px 2px black;
 
 }
 .head p
@@ -23,12 +25,15 @@ body{
   height:1550px ;
   float:left;
   color:white;
+  border-radius:30px;
+  box-shadow: 2px 2px 2px 2px black;
 }
 .image{
   height:245px;
   widht:245px;
   margin:80px 5px 10px 50px;
   border-radius:100px;
+  box-shadow: 2px 1px 1px 1px black;
 }
 .email
 {
@@ -37,19 +42,27 @@ body{
    height:22px;
 
 }
-.side a{
+.side a,td{
   text-decoration: none;
   color:white;
+  text-shadow: 2px 2px 2px black;
 }
+.side p
+{
+  text-shadow: 2px 2px 2px black;
+}
+
 .main{
-  margin-top:88px;
+  margin-top:105px;
   background-color:#f9fbfe;
   float:right;
   width:928px;
   height:750px;
   display:inline-flex;
   position: absolute;
+  margin-left:9px;
 }
+
 .text p
 {
   margin-left:40px;
